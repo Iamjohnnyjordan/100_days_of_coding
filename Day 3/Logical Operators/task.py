@@ -19,7 +19,11 @@ if height >= 120:
     if wants_photo == "Y":
         bill += 3
 
-    print(f"Your final bill is ${bill}")
+    meal_plan = input("Do you want a meal plan for the day?")
+    if meal_plan == "Y":
+        bill += 10.50
+
+    print(f"Your final bill is ${bill:.2f}")
 
 else:
     print("Sorry, you have to grow taller before you can ride.")
