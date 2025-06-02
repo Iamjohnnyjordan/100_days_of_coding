@@ -18,7 +18,7 @@ if height >= 120:
     wants_photo = input("Do you want a photo taken? Y or N. ")
     if wants_photo == "Y":
         bill += 3
-
+# added meal plan
     meal_plans = input("Do you want a meal plan for the day?")
     if meal_plans == "Y":
         bill += 10.50
